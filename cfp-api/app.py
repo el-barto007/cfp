@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hola_aws101_root():
-    return jsonify(message='Hola AWS CodePipeline hola a todos')
+    return jsonify(message='Hola AWS CodePipeline HOLA grupo')
 
 
 @app.route('/voluntarios')
